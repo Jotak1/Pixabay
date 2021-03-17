@@ -1,3 +1,4 @@
+import axios from 'axios';
 import React,{useState,useEffect} from 'react';
 import Formulario from './components/Formulario';
 import ListadoImagenes from './components/ListadoImagenes';
@@ -17,9 +18,7 @@ function App() {
       const imagenesPorPagina = 30;
       const key ='20731325-acb4cef96a023dc903dd537cf';
       const url =  `https://pixabay.com/api/?key=${key}&q=${busqueda}&per_page=${imagenesPorPagina}&page=${paginaactual}`;
-      const respuesta = await fetch(url);
-      const resultado = await respuesta.json();
-
+      const resultado = await axios.get(url);
       guardarImagenes(resultado.hits);
       
       // calcular el total de paginas
