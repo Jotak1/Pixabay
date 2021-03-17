@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/Pixabay/static/js/main.97289ce4.chunk.js",
+    "main.js.map": "/Pixabay/static/js/main.97289ce4.chunk.js.map",
+    "runtime-main.js": "/Pixabay/static/js/runtime-main.35cdeb5c.js",
+    "runtime-main.js.map": "/Pixabay/static/js/runtime-main.35cdeb5c.js.map",
+    "static/js/2.29f43171.chunk.js": "/Pixabay/static/js/2.29f43171.chunk.js",
+    "static/js/2.29f43171.chunk.js.map": "/Pixabay/static/js/2.29f43171.chunk.js.map",
+    "static/js/3.8b3fe6f1.chunk.js": "/Pixabay/static/js/3.8b3fe6f1.chunk.js",
+    "static/js/3.8b3fe6f1.chunk.js.map": "/Pixabay/static/js/3.8b3fe6f1.chunk.js.map",
+    "index.html": "/Pixabay/index.html",
+    "static/js/2.29f43171.chunk.js.LICENSE.txt": "/Pixabay/static/js/2.29f43171.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.35cdeb5c.js",
+    "static/js/2.29f43171.chunk.js",
+    "static/js/main.97289ce4.chunk.js"
+  ]
+}
